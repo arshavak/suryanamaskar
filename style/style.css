@@ -86,16 +86,16 @@ display: none;
   cursor:default;
   color: rgb(0, 0, 0);
   background-color: #ffffff00;
-  font-size: 18px;
+  
   padding: 4px 8px 4px 8px;
   border: 1px solid rgb(255, 255, 255);
-  font-weight: 900;
+  font-weight: 800;
   position: fixed;
   right: 0%;
   bottom: 0%;
-  font-size: 50px;
-  height: 100px;
-  width: 200px;
+  font-size: 40px;
+  height: 70px;
+  width: 100%;
   z-index: -1;
 }
 
@@ -353,8 +353,8 @@ a.index:hover{
  */
 #step_pic{
   position: fixed;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   top: 55%;
   left:50%;
   transform: translate(-50%, -50%);

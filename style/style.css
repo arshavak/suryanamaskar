@@ -353,8 +353,8 @@ a.index:hover{
  */
 #step_pic{
   position: fixed;
-  height: 400px;
-  width: 600px;
+  height: 200px;
+  width: 200px;
   top: 55%;
   left:50%;
   transform: translate(-50%, -50%);

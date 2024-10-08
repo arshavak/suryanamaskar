@@ -352,15 +352,15 @@ a.index:hover{
  */
 #step_pic{
   position: fixed;
-  height: 250px;
-  width: 95%;
+  height: 260px;
+  width: 260px;
   top: 55%;
   left:50%;
   transform: translate(-50%, -50%);
   align-items: center;
   justify-content: center;
   z-index: -1;
-  border: 5px ridge;
+  border: 5px ridge #ffe;
 }
 
 .steps{

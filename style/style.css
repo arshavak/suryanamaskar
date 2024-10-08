@@ -85,8 +85,7 @@ display: none;
 #suchna{
   cursor:default;
   color: rgb(0, 0, 0);
-  background-color: #ffffff00;
-  
+  background-color: #ffe;
   padding: 4px 8px 4px 8px;
   border: 1px solid rgb(255, 255, 255);
   font-weight: 800;

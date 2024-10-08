@@ -95,17 +95,7 @@ display: none;
   font-size: 30px;
   width: 100%;
   z-index: -1;
-background: linear-gradient(180deg,#ffe 0%, #ffa 50%, #fff 100%);
-   background-size: 100% 200%;
-   animation: flame-up 3s ease-in-out infinite;
-       
 }
-
-@keyframes flame-up {
-            0% { background-position: 0% 100%; }
-            50% { background-position: 0% 50%; }
-            100% { background-position: 0% 0%; }
-        }
 
 
 #suchna2{

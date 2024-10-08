@@ -85,15 +85,14 @@ display: none;
 #suchna{
   cursor:default;
   color: rgb(0, 0, 0);
-  background-color: #ffc;
+  background-color: #ffb;
   padding: 4px 8px 4px 8px;
   border: 1px solid rgb(255, 255, 255);
   font-weight: 800;
   position: fixed;
   right: 0%;
   bottom: 0%;
-  font-size: 40px;
-  height: 70px;
+  font-size: 30px;
   width: 100%;
   z-index: -1;
 }

@@ -12,11 +12,11 @@ var steps = document.querySelectorAll(".steps");
 const counting = document.querySelector("#suchna2");
 playButton.addEventListener('click', () => {
 
- var bs = new Audio(`prishthbhumi-dhvani/dhvani (21).mp3`);
+ var bs = new Audio(`prishthbhumi-dhvani/dhvani (22).mp3`);
   bs.loop = true;
   bs.volume = 0.5;
   bs.play();
-
+steps[0].style.display = "block"
   setTimeout(()=>{
   let startIndex = selector1.value - 1;
   let lastIndex = selector2.value;
@@ -30,7 +30,7 @@ playButton.addEventListener('click', () => {
     } 
     if (startIndex < lastIndex) {
       const key = keys[startIndex];
-      steps[0].style.display = "block"
+      
       audio = key.querySelector('audio');
       counting.value = 1;
       let playCount = 0;
